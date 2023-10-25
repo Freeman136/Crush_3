@@ -11,6 +11,7 @@
 		49FD9D322AE704C6005DA0F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FD9D312AE704C6005DA0F1 /* ContentView.swift */; };
 		49FD9D342AE704C7005DA0F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49FD9D332AE704C7005DA0F1 /* Assets.xcassets */; };
 		49FD9D372AE704C7005DA0F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49FD9D362AE704C7005DA0F1 /* Preview Assets.xcassets */; };
+		49FE928B2AE8849700EF4DA7 /* GlassClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE928A2AE8849700EF4DA7 /* GlassClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		49FD9D312AE704C6005DA0F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		49FD9D332AE704C7005DA0F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49FD9D362AE704C7005DA0F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		49FE928A2AE8849700EF4DA7 /* GlassClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				49FD9D2F2AE704C6005DA0F1 /* Crush3App.swift */,
 				49FD9D312AE704C6005DA0F1 /* ContentView.swift */,
+				49FE928A2AE8849700EF4DA7 /* GlassClass.swift */,
 				49FD9D332AE704C7005DA0F1 /* Assets.xcassets */,
 				49FD9D352AE704C7005DA0F1 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49FE928B2AE8849700EF4DA7 /* GlassClass.swift in Sources */,
 				49FD9D322AE704C6005DA0F1 /* ContentView.swift in Sources */,
 				49FD9D302AE704C6005DA0F1 /* Crush3App.swift in Sources */,
 			);
