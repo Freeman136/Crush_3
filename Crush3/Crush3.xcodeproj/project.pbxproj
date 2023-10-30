@@ -7,20 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49441FEC2AED93AD000A1D56 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49441FEB2AED93AD000A1D56 /* SwiftUIView.swift */; };
+		49441FEE2AEE9B62000A1D56 /* StructDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49441FED2AEE9B62000A1D56 /* StructDTO.swift */; };
 		49FD9D302AE704C6005DA0F1 /* Crush3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FD9D2F2AE704C6005DA0F1 /* Crush3App.swift */; };
 		49FD9D322AE704C6005DA0F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FD9D312AE704C6005DA0F1 /* ContentView.swift */; };
 		49FD9D342AE704C7005DA0F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49FD9D332AE704C7005DA0F1 /* Assets.xcassets */; };
 		49FD9D372AE704C7005DA0F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49FD9D362AE704C7005DA0F1 /* Preview Assets.xcassets */; };
-		49FE928B2AE8849700EF4DA7 /* GlassClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE928A2AE8849700EF4DA7 /* GlassClass.swift */; };
+		49FE928B2AE8849700EF4DA7 /* GlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE928A2AE8849700EF4DA7 /* GlassView.swift */; };
+		49FE928D2AE9B85E00EF4DA7 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE928C2AE9B85E00EF4DA7 /* MainMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		49441FEB2AED93AD000A1D56 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		49441FED2AEE9B62000A1D56 /* StructDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructDTO.swift; sourceTree = "<group>"; };
 		49FD9D2C2AE704C6005DA0F1 /* Crush3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crush3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49FD9D2F2AE704C6005DA0F1 /* Crush3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crush3App.swift; sourceTree = "<group>"; };
 		49FD9D312AE704C6005DA0F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		49FD9D332AE704C7005DA0F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49FD9D362AE704C7005DA0F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		49FE928A2AE8849700EF4DA7 /* GlassClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassClass.swift; sourceTree = "<group>"; };
+		49FE928A2AE8849700EF4DA7 /* GlassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassView.swift; sourceTree = "<group>"; };
+		49FE928C2AE9B85E00EF4DA7 /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +61,10 @@
 			children = (
 				49FD9D2F2AE704C6005DA0F1 /* Crush3App.swift */,
 				49FD9D312AE704C6005DA0F1 /* ContentView.swift */,
-				49FE928A2AE8849700EF4DA7 /* GlassClass.swift */,
+				49441FED2AEE9B62000A1D56 /* StructDTO.swift */,
+				49441FEB2AED93AD000A1D56 /* SwiftUIView.swift */,
+				49FE928C2AE9B85E00EF4DA7 /* MainMenu.swift */,
+				49FE928A2AE8849700EF4DA7 /* GlassView.swift */,
 				49FD9D332AE704C7005DA0F1 /* Assets.xcassets */,
 				49FD9D352AE704C7005DA0F1 /* Preview Content */,
 			);
@@ -140,9 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49FE928B2AE8849700EF4DA7 /* GlassClass.swift in Sources */,
+				49441FEE2AEE9B62000A1D56 /* StructDTO.swift in Sources */,
+				49FE928B2AE8849700EF4DA7 /* GlassView.swift in Sources */,
 				49FD9D322AE704C6005DA0F1 /* ContentView.swift in Sources */,
 				49FD9D302AE704C6005DA0F1 /* Crush3App.swift in Sources */,
+				49FE928D2AE9B85E00EF4DA7 /* MainMenu.swift in Sources */,
+				49441FEC2AED93AD000A1D56 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +288,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Crush3/Preview Content\"";
+				DEVELOPMENT_TEAM = 4W8U7H48UM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -304,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Crush3/Preview Content\"";
+				DEVELOPMENT_TEAM = 4W8U7H48UM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

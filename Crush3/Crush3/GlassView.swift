@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct GlassView: UIViewRepresentable {
+struct GlassViewRender: UIViewRepresentable {
     var removeEffects = false
     func makeUIView(context: Context) -> some UIView {
         let view = UIVisualEffectView(effect: UIBlurEffect(style: .systemUltraThinMaterial))
