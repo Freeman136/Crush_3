@@ -140,9 +140,9 @@ struct ContentView: View {
                             self.selected = 0
                         }) {
                             VStack {
-                                Image(Icons.home)
+                                Image(Constants.namesOfButton.home.rawValue)
                                     .resizable()
-                                    .frame(width: Icons.frameWidth, height: Icons.frameHeight, alignment: .center)
+                                    .frame(width: Constants.frameWidth, height: Constants.frameHeight, alignment: .center)
                                     .foregroundStyle(self.selected == 0 ? .pink : .black)
                                 Text("Home")
                                     .foregroundColor(self.selected == 0 ? .pink : .black)
@@ -154,9 +154,9 @@ struct ContentView: View {
                             self.selected = 1
                         }) {
                             VStack {
-                                Image(Icons.salons)
+                                Image(Constants.namesOfButton.salons.rawValue)
                                     .resizable()
-                                    .frame(width: Icons.frameWidth, height: Icons.frameHeight, alignment: .center)
+                                    .frame(width: Constants.frameWidth, height: Constants.frameHeight, alignment: .center)
                                     .foregroundStyle(self.selected == 1 ? .pink : .black)
                                 Text("Salons")
                                     .foregroundColor(self.selected == 1 ? .pink : .black)
@@ -168,9 +168,9 @@ struct ContentView: View {
                             self.selected = 2
                         }) {
                             VStack {
-                                Image(Icons.services)
+                                Image(Constants.namesOfButton.services.rawValue)
                                     .resizable()
-                                    .frame(width: Icons.frameWidth, height: Icons.frameHeight, alignment: .center)
+                                    .frame(width: Constants.frameWidth, height: Constants.frameHeight, alignment: .center)
                                     .padding(2)
                                     .foregroundStyle(self.selected == 2 ? .pink : .black)
                                 Text("Services")
@@ -183,9 +183,9 @@ struct ContentView: View {
                             self.selected = 3
                         }) {
                             VStack {
-                                Image(Icons.blog)
+                                Image(Constants.namesOfButton.blog.rawValue)
                                     .resizable()
-                                    .frame(width: Icons.frameWidth, height: Icons.frameHeight, alignment: .center)
+                                    .frame(width: Constants.frameWidth, height: Constants.frameHeight, alignment: .center)
                                     .foregroundStyle(self.selected == 3 ? .pink : .black)
                                 Text("Blog")
                                     .foregroundColor(self.selected == 3 ? .pink : .black)
@@ -260,11 +260,14 @@ struct ScreenTransitionLogo: View {
         }
     }
 }
-struct Icons {
-    static let home = "Home"
-    static let salons = "Salons"
-    static let services = "Services"
-    static let blog = "Blog"
+struct Constants {
+    enum namesOfButton: String {
+    case home = "Home"
+    case salons = "Salons"
+    case services = "Services"
+    case blog = "Blog"
+    }
+   
     static let frameWidth: CGFloat = 24
     static let frameHeight: CGFloat = 24
 }
