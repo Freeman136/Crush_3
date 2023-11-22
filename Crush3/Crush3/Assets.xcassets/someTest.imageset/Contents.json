@@ -2,16 +2,7 @@
   "images" : [
     {
       "filename" : "1662129890_48-kartinkin-net-p-podlozhka-dlya-pitstsi-instagram-61.jpg",
-      "idiom" : "universal",
-      "scale" : "1x"
-    },
-    {
-      "idiom" : "universal",
-      "scale" : "2x"
-    },
-    {
-      "idiom" : "universal",
-      "scale" : "3x"
+      "idiom" : "universal"
     }
   ],
   "info" : {
