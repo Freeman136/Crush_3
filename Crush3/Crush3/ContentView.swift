@@ -102,9 +102,9 @@ struct ContentView: View {
                         .frame(width: 380, height: 250, alignment: .center)
                     VStack {
                         Text("The Best")
-                            .padding(.leading, -180)
+                            .padding(.trailing, 220)
                         Text("Beauty Experts")
-                            .padding(.leading, -115)
+                            .padding(.trailing, 115)
                     }
                     .font(Font.custom("Montserrat", size: 36)
                     .weight(.medium)
